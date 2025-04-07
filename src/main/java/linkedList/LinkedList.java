@@ -22,8 +22,9 @@ public class LinkedList {
      if (head == null){
          head = newNode;
      } else {
-         while (current.next != null)
-             current= current.next;
+         while (current.next != null) {
+             current = current.next;
+         }
          current.next= newNode;
      }
  }
