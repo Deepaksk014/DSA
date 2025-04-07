@@ -55,6 +55,13 @@ public class LinkedList {
 
      Node current= head;
 
+     if(head == null){
+         return;
+     }
+
+     if (current.data == data){
+         current=current.next;
+     }
      while (current.next != null && current.next.data != data){
          current=current.next;
 
