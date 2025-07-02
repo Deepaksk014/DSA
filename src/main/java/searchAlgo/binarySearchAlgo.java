@@ -17,6 +17,7 @@ public class binarySearchAlgo {
             System.out.println("target not found.");
 
         }
+
     }
 
     public static int binarySearch(int[] num, int target, int left, int right) {
